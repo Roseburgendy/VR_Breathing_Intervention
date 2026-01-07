@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1362597844387494180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339634605080849457}
+  - component: {fileID: 705746701430176806}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339634605080849457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362597844387494180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.48476, y: -0.10195, z: -4.79084}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705746701430176806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362597844387494180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f05f26dca1a79f44b5a5e2b1af902c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.AudioManager
+  musicCategory:
+    categoryName: Music
+    sounds:
+    - name: menuMusic
+      clip: {fileID: 8300000, guid: 260b81cbe4c1057449258ca2d382f10b, type: 3}
+      source: {fileID: 0}
+    - name: level1Music
+      clip: {fileID: 8300000, guid: f990fb9879d7c934a9536ccb74cc927a, type: 3}
+      source: {fileID: 0}
+    - name: level2Music
+      clip: {fileID: 8300000, guid: 105a07d8f188a6848ab0f1ee382d6882, type: 3}
+      source: {fileID: 0}
+    - name: level3Music
+      clip: {fileID: 8300000, guid: f24a8df42f6311844974e642f3e2f73f, type: 3}
+      source: {fileID: 0}
+  sfxCategory:
+    categoryName: SFX
+    sounds:
+    - name: buttonClick
+      clip: {fileID: 8300000, guid: 4885bb3bfe406a44ab63462c4440da59, type: 3}
+      source: {fileID: 0}
+    - name: buttonHover
+      clip: {fileID: 8300000, guid: c00193f69f150124cbf3f5671b986b63, type: 3}
+      source: {fileID: 0}
+    - name: crystalInhale
+      clip: {fileID: 8300000, guid: 6d389fd10af17de468aa50a9748e8b10, type: 3}
+      source: {fileID: 0}
+    - name: crystalRelease
+      clip: {fileID: 8300000, guid: 202ec6ef95cbf074a93a45e2b655a3b3, type: 3}
+      source: {fileID: 0}
+    - name: crystalExhale
+      clip: {fileID: 8300000, guid: 33b55760da5187d40a978156f2952e0b, type: 3}
+      source: {fileID: 0}
+  voiceCategory:
+    categoryName: Voice
+    sounds:
+    - name: p1_start
+      clip: {fileID: 8300000, guid: b1c7d80a5621aba46bce4215a33a9b45, type: 3}
+      source: {fileID: 0}
+    - name: p1_end
+      clip: {fileID: 8300000, guid: 5f8c34e6755466449b23289a8866c082, type: 3}
+      source: {fileID: 0}
+    - name: p1_progress_1
+      clip: {fileID: 8300000, guid: aafa0c2380e4e7345ab3ee09a491b072, type: 3}
+      source: {fileID: 0}
+    - name: p1_progress_2
+      clip: {fileID: 8300000, guid: 4c62c5c8ee335ee4d821ea5904dcfb1a, type: 3}
+      source: {fileID: 0}
+    - name: p1_progress_3
+      clip: {fileID: 8300000, guid: 2c38756a27f22554e97940e988f54f19, type: 3}
+      source: {fileID: 0}
+    - name: p2_progress
+      clip: {fileID: 8300000, guid: ae083d77f782a284caccf239ef21a46a, type: 3}
+      source: {fileID: 0}
+    - name: p3_progress
+      clip: {fileID: 8300000, guid: 8cc01125977a70d49826ff249bcba678, type: 3}
+      source: {fileID: 0}
+    - name: t_p1
+      clip: {fileID: 8300000, guid: 95b84af7111f59f43bf651a5e8b0d513, type: 3}
+      source: {fileID: 0}
+    - name: t_p2
+      clip: {fileID: 8300000, guid: 4b22c304ccea0cf4890ab6e0f9c9d2cc, type: 3}
+      source: {fileID: 0}
+    - name: t_p3
+      clip: {fileID: 8300000, guid: 38167de2505777f4cb8bcf95ed25cc98, type: 3}
+      source: {fileID: 0}
+    - name: t_g1
+      clip: {fileID: 8300000, guid: 4d2d012569540de4ea7959a15f508a61, type: 3}
+      source: {fileID: 0}
+    - name: t_g2
+      clip: {fileID: 8300000, guid: d82044e3a15f77b43a78af600fc3eb14, type: 3}
+      source: {fileID: 0}
+    - name: t_g3
+      clip: {fileID: 8300000, guid: f25ca6ae2c0178142a5d5aed3be74b2a, type: 3}
+      source: {fileID: 0}
+  ambientCategory:
+    categoryName: Ambient
+    sounds:
+    - name: amb_wind
+      clip: {fileID: 8300000, guid: a59a687c912ddb64c92127db10ade1eb, type: 3}
+      source: {fileID: 0}
+    - name: amb_waterfall
+      clip: {fileID: 8300000, guid: 6ba246f79e557fe4788336feaf3e877f, type: 3}
+      source: {fileID: 0}
+  masterVolume: 1
+  musicVolume: 0.321
+  sfxVolume: 0.636
+  voiceVolume: 1
+  ambientVolume: 0.204
+  showDebug: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad320ce12a9266349814e416c1b95e5b, type: 3}
+  m_Name: TrainingDialogueCollection
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueCollection
+  dialogues:
+  - {fileID: 11400000, guid: 4cc27c96413dd8f4b9ef0d444f9427c2, type: 2}
+  - {fileID: 11400000, guid: fe8fdf3b17606dc4e8298af9954adfe3, type: 2}
+  - {fileID: 11400000, guid: c84a1dc1216294e4d9a397c11a5a2320, type: 2}
+  - {fileID: 11400000, guid: 6c4b5b961efae0b4081e1db1a74cead6, type: 2}
+  - {fileID: 11400000, guid: 7e6d9969887442541baa43ec2e3d1a17, type: 2}

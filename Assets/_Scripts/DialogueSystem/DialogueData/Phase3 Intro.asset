@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346e85f05294f374c9a625007bbbedf8, type: 3}
+  m_Name: Phase3 Intro
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueData
+  dialogueKey: phase3_intro
+  volumeMultiplier: 1
+  phase: 3
+  subtitleLines:
+  - content: This tree has been waiting. Stand here, beneath its branches.
+    clip: {fileID: 8300000, guid: 2d72384f83c34a949ae41be5db2a3f0c, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: "You don\u2019t need to do anything new. "
+    clip: {fileID: 8300000, guid: c708f1ef8204f0a4cac2ce5852c0834d, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: Simply breathe.
+    clip: {fileID: 8300000, guid: 3823fefda4dcf5b4f833b5c3396d0cc6, type: 3}
+    overrideDuration: 0
+    postDelay: 0

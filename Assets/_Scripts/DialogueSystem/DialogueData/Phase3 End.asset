@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346e85f05294f374c9a625007bbbedf8, type: 3}
+  m_Name: Phase3 End
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueData
+  dialogueKey: phase3_end
+  volumeMultiplier: 1
+  phase: 3
+  subtitleLines:
+  - content: You did well. See! Your breath has brought spring back to the land!
+    clip: {fileID: 8300000, guid: 584bfe24dd17cc841bb512e6091d2c32, type: 3}
+    overrideDuration: 0
+    postDelay: 5
+  - content: Thank you for being part of the FlowSpring journey.
+    clip: {fileID: 8300000, guid: 0b182d2122c64ff488c4c0e9b12248fb, type: 3}
+    overrideDuration: 0
+    postDelay: 2

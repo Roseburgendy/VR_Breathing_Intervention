@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85299dc28e4f4a74f89a2fad0fb311e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 79407
+  packageName: Simple 3D Noise
+  packageVersion: 1.1
+  assetPath: Assets/Simple 3D Noise/ExampleScenes/Materials/Transparent.mat
+  uploadId: 310304

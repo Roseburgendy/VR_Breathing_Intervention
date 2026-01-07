@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346e85f05294f374c9a625007bbbedf8, type: 3}
+  m_Name: training_p1_start
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueData
+  dialogueKey: training_p1_start
+  volumeMultiplier: 1
+  phase: 0
+  subtitleLines:
+  - content: First set is horizontal breathing.
+    clip: {fileID: 8300000, guid: 6580f2549bd3ff342b825005840729a9, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: Breathe with a horizontal motion.
+    clip: {fileID: 8300000, guid: a399526d025935341aa517433fe88e9e, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: As you inhale, open outward.
+    clip: {fileID: 8300000, guid: a4d0840cd1f242545acd1f62c2b06de2, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: As you exhale, gently close back in.
+    clip: {fileID: 8300000, guid: 0c2cf9db9175bb34fa2a9998efd55366, type: 3}
+    overrideDuration: 0
+    postDelay: 0

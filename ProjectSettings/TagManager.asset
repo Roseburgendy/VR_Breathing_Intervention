@@ -28,6 +28,10 @@ TagManager:
   - QDSUITextInputField
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
+  - CinemachineTarget
+  - LeftHand
+  - RightHand
+  - TeleportAnchor
   layers:
   - Default
   - TransparentFX

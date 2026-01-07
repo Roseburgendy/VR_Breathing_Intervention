@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346e85f05294f374c9a625007bbbedf8, type: 3}
+  m_Name: training_p2_start
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueData
+  dialogueKey: training_p2_start
+  volumeMultiplier: 1
+  phase: 0
+  subtitleLines:
+  - content: Second set is vertical breathing.
+    clip: {fileID: 8300000, guid: bfa2b425703422248a4316dfa6cfbf19, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: Now shift to a vertical motion.
+    clip: {fileID: 8300000, guid: a5386085c0cd2ed459dfe7a805c09035, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: As you inhale, lift upward.
+    clip: {fileID: 8300000, guid: ccc362dff76ad3f46b363e5f6ec0a5e5, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: As you exhale, settle back down.
+    clip: {fileID: 8300000, guid: 692367f672f624d47b6a6d8c711f2846, type: 3}
+    overrideDuration: 0
+    postDelay: 0

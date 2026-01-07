@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346e85f05294f374c9a625007bbbedf8, type: 3}
+  m_Name: Cutscene Gaze
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueData
+  dialogueKey: cutscene_gaze
+  volumeMultiplier: 1
+  phase: 0
+  subtitleLines:
+  - content: Now, look around this land.
+    clip: {fileID: 8300000, guid: d266a62689995cf47ae412c76610dd34, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: "The crystal before you holds no power of its own. Its light responds
+      only to one thing\u2014your breathing."
+    clip: {fileID: 8300000, guid: 1b7112e110ebeca429f29effabfe1527, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: "Let us begin. Breathe\u2026 and awaken the crystal."
+    clip: {fileID: 8300000, guid: 92325f7a0bea8134aaaf51baf0d169ab, type: 3}
+    overrideDuration: 0
+    postDelay: 0

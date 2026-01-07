@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad320ce12a9266349814e416c1b95e5b, type: 3}
+  m_Name: DialogueCollection
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueCollection
+  collectionName: 
+  description: 
+  dialogues:
+  - {fileID: 11400000, guid: 57c2c725bde139540a3f1f1aa9ebd8bd, type: 2}
+  - {fileID: 11400000, guid: afdb27cd820160a41b3c437da8e682fd, type: 2}
+  - {fileID: 11400000, guid: 8f48ed65b5040e8428407e0da4c4a465, type: 2}
+  - {fileID: 11400000, guid: 3f0b9363a89a2c54cbe6afef1f8dddd9, type: 2}
+  - {fileID: 11400000, guid: 314ca630594c0bb4a949cd161b20bcce, type: 2}
+  - {fileID: 11400000, guid: 9e1cc7c902567094383eba34b586ed06, type: 2}
+  - {fileID: 11400000, guid: 6ddf6e8544938904d8b6e16900f75756, type: 2}
+  - {fileID: 11400000, guid: d0e0aef7b9170324dbcdbc3951441bf2, type: 2}
+  - {fileID: 11400000, guid: c19ea9800aebbc84d8cbd05bec400dac, type: 2}

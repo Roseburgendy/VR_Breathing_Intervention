@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8d40f47344e507d4685e46bcfdfdab64
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 79407
+  packageName: Simple 3D Noise
+  packageVersion: 1.1
+  assetPath: Assets/Simple 3D Noise/ExampleScenes/SpeedComparison.unity
+  uploadId: 310304

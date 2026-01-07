@@ -12,53 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfbdbb87d3286943a057f7791b43141, type: 3}
   m_Name: ChannelMixer
   m_EditorClassIdentifier: 
-  active: 0
-  m_AdvancedMode: 0
+  active: 1
   redOutRedIn:
     m_OverrideState: 0
     m_Value: 100
-    min: -200
-    max: 200
   redOutGreenIn:
     m_OverrideState: 0
     m_Value: 0
-    min: -200
-    max: 200
   redOutBlueIn:
     m_OverrideState: 0
     m_Value: 0
-    min: -200
-    max: 200
   greenOutRedIn:
     m_OverrideState: 0
     m_Value: 0
-    min: -200
-    max: 200
   greenOutGreenIn:
     m_OverrideState: 0
     m_Value: 100
-    min: -200
-    max: 200
   greenOutBlueIn:
     m_OverrideState: 0
     m_Value: 0
-    min: -200
-    max: 200
   blueOutRedIn:
     m_OverrideState: 0
     m_Value: 0
-    min: -200
-    max: 200
   blueOutGreenIn:
     m_OverrideState: 0
     m_Value: 0
-    min: -200
-    max: 200
   blueOutBlueIn:
     m_OverrideState: 0
     m_Value: 100
-    min: -200
-    max: 200
 --- !u!114 &-6895030090168094954
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -72,40 +53,40 @@ MonoBehaviour:
   m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
+  skipIterations:
+    m_OverrideState: 0
+    m_Value: 1
   threshold:
     m_OverrideState: 1
     m_Value: 0.7
-    min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 4
-    min: 0
+    m_Value: 2.23
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
-    min: 0
-    max: 1
   clamp:
     m_OverrideState: 1
-    m_Value: 0.63
-    min: 0
+    m_Value: 0.55
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 0
-    showAlpha: 0
-    showEyeDropper: 1
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 1
+  downscale:
+    m_OverrideState: 0
+    m_Value: 0
+  maxIterations:
+    m_OverrideState: 0
+    m_Value: 6
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
+    dimension: 1
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
-    min: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,31 +117,21 @@ MonoBehaviour:
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
     m_Value: 0.8
   contrast:
     m_OverrideState: 1
     m_Value: 3.8
-    min: -100
-    max: 100
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   hueShift:
     m_OverrideState: 0
     m_Value: 0
-    min: -180
-    max: 180
   saturation:
     m_OverrideState: 0
     m_Value: 5
-    min: -100
-    max: 100
 --- !u!114 &6261638710967733382
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -174,7 +145,6 @@ MonoBehaviour:
   m_Name: LiftGammaGain
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   lift:
     m_OverrideState: 1
     m_Value: {x: 0.94447505, y: 0.81393486, z: 1, w: 0}

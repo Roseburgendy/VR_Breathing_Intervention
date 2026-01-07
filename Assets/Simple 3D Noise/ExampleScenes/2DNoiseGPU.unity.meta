@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 015298eb31ebe424d9b2d5a1bd9219ae
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 79407
+  packageName: Simple 3D Noise
+  packageVersion: 1.1
+  assetPath: Assets/Simple 3D Noise/ExampleScenes/2DNoiseGPU.unity
+  uploadId: 310304

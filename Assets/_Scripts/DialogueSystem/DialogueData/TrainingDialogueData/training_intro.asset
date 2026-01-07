@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346e85f05294f374c9a625007bbbedf8, type: 3}
+  m_Name: training_intro
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.DialogueSystem.DialogueData
+  dialogueKey: training_intro
+  volumeMultiplier: 1
+  phase: 0
+  subtitleLines:
+  - content: This session consists of three breathing sets.
+    clip: {fileID: 8300000, guid: 38b5bfcdcb01f994998a9d9f9bc4f4c8, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: You will remain in place and complete three sets of guided breathing.
+    clip: {fileID: 8300000, guid: d7ce387c38ef2e846a493d3b66edd300, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: Follow the rhythm and breathe naturally.
+    clip: {fileID: 8300000, guid: e0aaec5e8d7f2844289423ec727e5fd9, type: 3}
+    overrideDuration: 0
+    postDelay: 0
+  - content: When you are ready, we will begin.
+    clip: {fileID: 8300000, guid: 21fded0c64ca0484ba7e32e10ee8aa53, type: 3}
+    overrideDuration: 0
+    postDelay: 0

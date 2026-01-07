@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b5631a93d77f0524592663c99632ee10
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 79407
+  packageName: Simple 3D Noise
+  packageVersion: 1.1
+  assetPath: Assets/Simple 3D Noise/ExampleScenes/3DNoiseCube.unity
+  uploadId: 310304
