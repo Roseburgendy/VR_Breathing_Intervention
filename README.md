@@ -1,4 +1,4 @@
-# VR Breathing Intervention
+# Flow Spring - a VR Breathing Game for Stress relief
 
 This repository contains the source code for the **Final Year Project: VR Breathing Intervention**, which explores how immersive virtual reality experiences can support guided breathing exercises through synchronized visual and audio feedback.
 
