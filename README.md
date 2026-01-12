@@ -4,7 +4,7 @@ This repository contains the source code for the **Final Year Project: VR Breath
 
 The project investigates VR as an experiential medium for relaxation and stress regulation, with an emphasis on interaction design and user engagement rather than clinical treatment.
 
----
+![Breathing Environment](Images/thesis_cover.webp)
 
 ## Project Overview
 
@@ -12,7 +12,6 @@ The VR breathing intervention guides users through paced breathing within an imm
 
 This project was developed as an academic prototype for evaluation and demonstration purposes.
 
----
 
 ## Demo and Portfolio
 
@@ -22,7 +21,6 @@ This project was developed as an academic prototype for evaluation and demonstra
 - **YouTube demo video:**  
   https://www.youtube.com/watch?v=dtDnn8Wxlbs&t=8s
 
----
 
 ## Features
 
@@ -32,7 +30,6 @@ This project was developed as an academic prototype for evaluation and demonstra
 - Narrative-inspired immersive environment  
 - Short, repeatable breathing sessions  
 
----
 
 ## Technical Details
 
@@ -41,7 +38,7 @@ This project was developed as an academic prototype for evaluation and demonstra
 - Interaction: Head-tracked immersive experience  
 - Input: Minimal or controller-free interaction  
 
----
+
 
 ## Repository Structure
 
@@ -49,7 +46,7 @@ This project was developed as an academic prototype for evaluation and demonstra
 - `Scripts/` – Breathing logic, interaction control, and audio/visual synchronization  
 - `Scenes/` – Main VR breathing experience scenes  
 
----
+
 
 ## Usage
 
@@ -59,14 +56,14 @@ This repository is intended for:
 - Project demonstration  
 - Reference for VR-based wellbeing and breathing experiences  
 
-To run the project:
+To Run
 
-1. Open the project in Unity.
-2. Configure XR settings for the target headset.
-3. Load the main breathing scene.
-4. Run in Play Mode or build for a supported device.
+1. Download the latest release from the **Releases** section of this repository.
+2. Install the provided APK file onto a Meta Quest 3 headset (via Meta Quest Developer Hub or ADB).
+3. Put on the headset and launch the application from the App Library.
+4. Follow the in-experience instructions to start the guided breathing session.
 
----
+
 
 ## Limitations
 
@@ -74,7 +71,6 @@ To run the project:
 - No physiological sensing (e.g., real-time breathing detection) is implemented.  
 - User experience outcomes are exploratory and context-dependent.
 
----
 
 ## License
 
